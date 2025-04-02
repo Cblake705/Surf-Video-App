@@ -1,0 +1,60 @@
+/* Overall container for the homepage */
+.homePage {
+  background-color: #000000; /* overall background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Container for the main content below the navbar */
+.content {
+  width: 100%;
+  padding: 2rem;
+}
+
+/* Title styles with a cool font */
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Styles for the video gallery layout */
+.videoGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Styles for each video card */
+.videoCard {
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.videoCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #2b5476;
+}
+
+.videoCardTitle {
+  margin: 0.5rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.videoCardDescription {
+  font-size: 0.9rem;
+  color: #4a2d2d;
+}
