@@ -29,17 +29,17 @@
 
 ## Thoughts & Concerns
 - Should I:
-  - create my own file upload system with AWS.
-  - utilize youtube's free video upload system.
+  - [X] create my own file upload system with AWS.
+  - [ ] utilize youtube's free video upload system.
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [X] **Basic Frontend**  
-  - Implement a basic interface that displays videos stored locally.
+  - [X] Implement a basic interface that displays videos stored locally.
 - [X] **Refined Modern Frontend**  
-  - Improve the UI with a clean, modern design.
-  - Implement responsive layouts and sleek animations.
+  - [X] Improve the UI with a clean, modern design.
+  - [X] Implement responsive layouts and sleek animations.
 - [ ] **Admin Dashboard**  
   - [ ] User Authentication and Secure Login  
   - [ ] Video Upload Feature (e.g., drag-and-drop upload)
