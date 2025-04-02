@@ -27,14 +27,17 @@
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 
-
+## Thoughts & Concerns
+- Should I:
+  - create my own file upload system with AWS.
+  - utilize youtube's free video upload system.
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [X] **Basic Frontend**  
   - Implement a basic interface that displays videos stored locally.
-- [ ] **Refined Modern Frontend**  
+- [X] **Refined Modern Frontend**  
   - Improve the UI with a clean, modern design.
   - Implement responsive layouts and sleek animations.
 - [ ] **Admin Dashboard**  
