@@ -11,7 +11,7 @@ const VideoCard = ({ title, description, url, thumbnailUrl }) => {
           style={{ width: "100%", height: "auto" }}
         />
       ) : (
-        <video width="320" height="240" controls>
+        <video className={styles.video} width="320" height="240" controls>
           <source src={url} type="video/mp4" />
           Your Browser does not support the video tag.
         </video>

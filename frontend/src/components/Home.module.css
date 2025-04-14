@@ -13,16 +13,6 @@
   padding: 2rem;
 }
 
-/* Title styles with a cool font */
-.title {
-  font-family: "Poppins", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-  color: #333;
-  text-align: center;
-}
-
 /* Styles for the video gallery layout */
 .videoGallery {
   display: grid;
@@ -41,20 +31,25 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
 .videoCard:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  background-color: #2b5476;
+  background-color: #2b547692;
 }
 
 .videoCardTitle {
   margin: 0.5rem 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .videoCardDescription {
   font-size: 0.9rem;
-  color: #4a2d2d;
+  color: #dca9a9;
 }

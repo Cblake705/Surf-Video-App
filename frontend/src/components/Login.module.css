@@ -1,0 +1,84 @@
+/* src/components/Login.module.css */
+
+.gameLoginContainer {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.infoText {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.track {
+  width: 80%;
+  max-width: 600px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.draggableStickman {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  top: -23px;
+  cursor: grab;
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+.dragInstruction {
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.passwordForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.passwordInput {
+  padding: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 200px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #336893;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #265274;
+}
+
+.stickmanImage {
+  width: 50px; /* adjust size as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

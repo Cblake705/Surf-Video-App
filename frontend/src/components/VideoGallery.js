@@ -19,6 +19,41 @@ const VideoGallery = () => {
       url: "/videos/MVI_1710 copy.MP4",
       thumbnailUrl: "",
     },
+    {
+      id: 3,
+      title: "Cool Turn",
+      description: "Turn from 3/29/25",
+      url: "/videos/MVI_1710 copy.MP4",
+      thumbnailUrl: "",
+    },
+    {
+      id: 4,
+      title: "Cool Turn",
+      description: "Turn from 3/29/25",
+      url: "/videos/Turn clip shores 3.28_1.mp4",
+      thumbnailUrl: "",
+    },
+    {
+      id: 5,
+      title: "Cool Turn",
+      description: "Turn from 3/29/25",
+      url: "/videos/MVI_1710 copy.MP4",
+      thumbnailUrl: "",
+    },
+    {
+      id: 6,
+      title: "Cool Turn",
+      description: "Turn from 3/29/25",
+      url: "/videos/MVI_1710 copy.MP4",
+      thumbnailUrl: "",
+    },
+    {
+      id: 7,
+      title: "Cool Turn",
+      description: "Turn from 3/29/25",
+      url: "/videos/MVI_1710 copy.MP4",
+      thumbnailUrl: "",
+    },
   ]);
   return (
     <div className={styles.videoGallery}>

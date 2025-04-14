@@ -2,6 +2,7 @@
 import React from "react";
 import { FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -40,21 +41,16 @@ const Navbar = () => {
         </div>
       </div>
       <div className={styles.rightSection}>
+        <Link to="/login" className={styles.navLinkText}>
+          Login
+        </Link>
         <a
-          href="https://www.instagram.com/christian.a.blake/"
+          href="https://play2048.co/"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.navLinkText}
         >
-          Temp1
-        </a>
-        <a
-          href="https://www.youtube.com/@BigBl4nk"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.navLinkText}
-        >
-          Temp2
+          2048
         </a>
       </div>
     </nav>
