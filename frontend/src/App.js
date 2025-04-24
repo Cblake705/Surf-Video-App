@@ -9,7 +9,6 @@ function App() {
   return (
     <Router>
       <div>
-        {/* You can add a navigation bar here if needed */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />

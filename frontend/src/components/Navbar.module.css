@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr; /* Left, center, right */
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.722); /* Single color background */
+  background-color: rgba(0, 0, 0, 0.722);
   padding: 0 2rem;
   height: 15vh; /* Adjust as needed (10-20% of viewport height) */
   width: 60%;
@@ -30,7 +30,7 @@
 }
 
 .titleImage {
-  width: 65px; /* Adjust width as needed */
+  width: 65px;
   height: auto;
 }
 
@@ -48,17 +48,17 @@
 
 .navLink {
   color: #ffffff; /* Base color for icons */
-  font-size: 1.2rem; /* Adjust icon size as needed */
+  font-size: 1.2rem; /* Icon size */
   transition: color 0.3s ease;
 }
 
 .navLinkText {
   color: #ffffff; /* Base color for icons */
-  font-size: 0.9rem; /* Adjust icon size as needed */
+  font-size: 0.9rem; /* Icon size */
   transition: color 0.3s ease;
   font-family: "Kantumruy Pro";
 }
 
 .navLink:hover {
-  color: #ffcc00; /* Change to a contrasting color on hover */
+  color: #ffcc00;
 }

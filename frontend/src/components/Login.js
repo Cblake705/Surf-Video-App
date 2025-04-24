@@ -8,7 +8,7 @@ import styles from "./Login.module.css";
 
 // Define the left-most limit (negative value) where the stickman is fully dragged.
 const DRAG_THRESHOLD = -575;
-// In our coordinate system, 0 is the right edge.
+// 0 is the right edge.
 const INITIAL_POSITION = { x: 0, y: 0 };
 
 const Login = () => {

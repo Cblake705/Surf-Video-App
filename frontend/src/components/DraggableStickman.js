@@ -76,9 +76,6 @@ const DraggableStickman = ({ lastPosition, onDrag }) => {
       {...attributes}
       className={styles.draggableStickman}
     >
-      {/* Replace the emoji with your stickman image.
-          The alt text is now empty since screen readers already announce images.
-          (You can also put a short description if the image conveys important information.) */}
       <img src="StickmanSurfing.png" alt="" className={styles.stickmanImage} />
       {/* Splash overlay */}
       {showSplash && <img src="wave2.png" alt="" className={styles.splash} />}
