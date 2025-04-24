@@ -33,11 +33,34 @@
   text-align: center;
   line-height: 50px;
   position: absolute;
+  will-change: transform;
   right: 0;
   top: -23px;
   cursor: grab;
+  overflow: visible;
   font-size: 1.5rem;
   user-select: none;
+}
+
+.splash {
+  position: absolute;
+  top: 45%; /* adjust so it pops out at the board edge */
+  left: 50%;
+  width: 60px; /* tweak size */
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1);
+  animation: splash 0.5s ease-out backwards;
+}
+
+@keyframes splash {
+  from {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.5) rotate(0deg);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-50%, -80%) scale(3.5) rotate(15deg);
+  }
 }
 
 .dragInstruction {

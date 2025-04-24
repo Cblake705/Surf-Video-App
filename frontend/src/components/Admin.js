@@ -1,11 +1,13 @@
 // src/components/Admin.js
 import React from "react";
-
+import styles from "./Admin.module.css";
+import VideoGallery from "./VideoGallery";
+import Navbar from "./Navbar.js";
 const Admin = () => {
   return (
-    <div>
-      <h1>Admin Dashboard</h1>
-      <p>This is the admin section. Secure access required!</p>
+    <div className={styles.adminPage}>
+      <Navbar />
+      <VideoGallery />
     </div>
   );
 };

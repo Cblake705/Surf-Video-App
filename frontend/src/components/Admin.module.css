@@ -1,0 +1,22 @@
+.adminPage {
+  background-color: #000000; /* overall background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.videoGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.tempText {
+  font-family: "Protest Guerilla";
+  font-size: 2.7rem;
+  color: #ffffff;
+  margin: 0;
+}
