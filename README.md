@@ -36,22 +36,24 @@
 ## Roadmap
 
 - [X] **Basic Frontend**  
-  - [X] Implement a basic interface that displays videos stored locally.
+  - [X] Implement a basic interface that displays videos stored locally.  
 - [X] **Refined Modern Frontend**  
-  - [X] Improve the UI with a clean, modern design.
-  - [X] Implement responsive layouts and sleek animations.
+  - [X] Improve the UI with a clean, modern design.  
+  - [X] Implement responsive layouts and sleek animations.  
 - [ ] **Admin Dashboard**  
   - [ ] User Authentication and Secure Login  
-  - [ ] Video Upload Feature (e.g., drag-and-drop upload)
-  - [ ] Video Management (edit, reorder, and delete videos)
-- [ ] **Backend API with Nest.js**  
+  - [ ] Video Upload Feature (e.g., drag-and-drop upload)  
+  - [ ] Video Management (edit, reorder, and delete videos)  
+- [X] **Backend API with Nest.js**  
   - [ ] File Upload & Storage Integration  
-  - [ ] CRUD Endpoints for Video Metadata
-  - [ ] Secure API Endpoints for Admin Functions
+  - [X] CRUD Endpoints for Video Metadata  
+  - [ ] Secure API Endpoints for Admin Functions  
+- [X] **Infrastructure & Deployment**  
+  - [X] Containerize the full stack with Docker & Docker Compose  
 - [ ] **Future Enhancements**  
   - [ ] Progressive Web App (PWA) / Mobile App Version  
   - [ ] Analytics and User Engagement Features  
-  - [ ] Social Sharing / Integration Features
+  - [ ] Social Sharing / Integration Features  
 
 See the [open issues](https://github.com/Cblake705/Surf-Video-App/issues) for a full list of proposed features (and known issues).
 
